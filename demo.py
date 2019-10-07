@@ -32,12 +32,14 @@ def load(file_name):
 
   try:
     fh = open(file_name, "r")
-    return json.load(fh)
-
-    fh.close()
+    output = json.load(fh)
   except IOError:
     print('Data file not loaded.')
     sys.exit(ERR_DATA_FILE)
+  finally:
+    fh.close()
+    
+  return output
 
 def extract():
   files = glob.glob(DIRECTORY + FILE + SEPARATOR + EXTENSION)
