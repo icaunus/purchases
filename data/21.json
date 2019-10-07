@@ -1,0 +1,9 @@
+{"purchases":[
+  {"type":"hotel","amount":110},
+  {"type":"drink","amount":11},
+  {"type":"airline","amount":110},
+  {"type":"car","amount":11000},
+  {"type":"rocket","amount":100000},
+  {"type":"drink","amount":12},
+  {"type":"rocket","amount":110000}
+]}

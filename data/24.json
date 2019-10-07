@@ -1,0 +1,5 @@
+{"purchases":[
+  {"type":"car","amount":40000},
+  {"type":"rocket","amount":400000},
+  {"type":"car","amount":41000}
+]}

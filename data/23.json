@@ -1,0 +1,9 @@
+{"purchases":[
+  {"type":"airline","amount":330},
+  {"type":"airline","amount":331},
+  {"type":"car","amount":33000},
+  {"type":"pillow","amount":32},
+  {"type":"airline","amount":333},
+  {"type":"airline","amount":334},
+  {"type":"pillow","amount":30}
+]}
